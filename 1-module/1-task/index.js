@@ -5,7 +5,6 @@
  * @returns {number}
  */
 function pow (m, n) {
-//    let result = 0;
     if ( n === 1 ) {
         return m;
     } else {
@@ -22,7 +21,7 @@ function checkNum (num) {
 }
 
 let x = prompt ('Enter x');
-let n = prompt ('Enter т');;
+let n = prompt ('Enter n');
 /*let comment = 'Enter n';
 
 do {
