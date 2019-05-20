@@ -8,5 +8,14 @@
  * @return {Function}
  */
 function makeLogging(fn, log) {
+    return function() {
+        let massOfArgs = [];
+        for (let i = 0; i < arguments.length; i++) {
+            massOfArgs.push(arguments[i]);
+        }
+        log.push(massOfArgs);
 
+        let result = fn.apply(this, arguments);
+        return result
+    }
 }

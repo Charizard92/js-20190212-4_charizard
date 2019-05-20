@@ -22,6 +22,7 @@ function SortableTable(items) {
      */
     this.el = document.createElement('table');
 
+
     /**
      * Метод выполняет сортировку таблицы
      * @param {number} column - номер колонки, по которой нужно выполнить сортировку (отсчет начинается от 0)
