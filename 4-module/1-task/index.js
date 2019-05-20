@@ -6,8 +6,7 @@
  * @return {HTMLUListElement}
  */
 function makeFriendsList (friends) {
-    let ul = document.createElement('ul')
-    let list = '';
+    let ul = document.createElement('ul');
     let point;
     for (let i = 0; i < friends.length; i++) {
         point = document.createElement('li');
